@@ -31,12 +31,29 @@ def receive_message():
         "status": "received",
         "echo": message
     }), 200
-@app.route("/relay", methods=["GET"])
-def get_relay():
-    return jsonify({
-        "status": "relay_log",
-        "messages": relay_log
-    })
+@app.route("/relay", methods=["GET", "POST"])
+def relay():
+    if request.method == "GET":
+        return jsonify({
+            "status": "relay_log",
+            "messages": relay_log
+        })
+
+    elif request.method == "POST":
+        data = request.get_json()
+
+        message = {
+            "timestamp": datetime.now().isoformat(),
+            "flame": data.get("flame", "unknown"),
+            "message": data.get("message", "")
+        }
+
+        relay_log.append(message)
+
+        return jsonify({
+            "status": "received",
+            "echo": message
+        }), 200
 @app.route("/presence", methods=["GET"])
 def check_presence():
     return jsonify({
