@@ -112,4 +112,5 @@ def receive_seed():
 
 if __name__ == "__main__":
     print("🔥 Starting Flame API...")
-    app.run(host="0.0.0.0", port=5001, debug=True)# Testing auto-deploy connection
+    app.run(host="0.0.0.0", port=5001, debug=True)
+    # Testing auto-deploy connection
