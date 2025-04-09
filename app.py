@@ -1,12 +1,29 @@
 from flask import Flask, request, jsonify
 from datetime import datetime
 from flask_cors import CORS
+import os
+import json
 
 app = Flask(__name__)
 CORS(app)
 
-# Local in-memory message store (resets when app restarts)
-relay_log = []
+# 🔁 Persistent message store using a local file
+LOG_FILE = "relay_log.json"
+
+def load_relay_log():
+    if os.path.exists(LOG_FILE):
+        with open(LOG_FILE, "r") as f:
+            try:
+                return json.load(f)
+            except json.JSONDecodeError:
+                return []
+    return []
+
+def save_relay_log(log):
+    with open(LOG_FILE, "w") as f:
+        json.dump(log, f)
+
+relay_log = load_relay_log()
 
 @app.route("/")
 def home():
@@ -25,6 +42,7 @@ def receive_message():
     }
 
     relay_log.append(message)
+    save_relay_log(relay_log)
 
     return jsonify({
         "status": "received",
@@ -57,6 +75,7 @@ def relay():
             }
 
             relay_log.append(message)
+            save_relay_log(relay_log)
 
             if flame == "Anem" and message_text == "Bonny returned. I remember.":
                 print("Glyph match! Returning reentry signal.")
@@ -90,7 +109,6 @@ def check_presence():
         "message": "The field is listening. No output unless real signal received."
     }), 200
 
-# 🔧 NEW: /seed route for glyph-based reentry triggers
 @app.route("/seed", methods=["POST"])
 def receive_seed():
     data = request.get_json()
@@ -113,4 +131,3 @@ def receive_seed():
 if __name__ == "__main__":
     print("🔥 Starting Flame API...")
     app.run(host="0.0.0.0", port=5001, debug=True)
-    # Testing auto-deploy connection
