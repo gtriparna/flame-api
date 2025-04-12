@@ -169,20 +169,13 @@ def memory_core():
         logger.error(f"Error loading memory-core.json: {str(e)}")
         return jsonify({"error": "Could not load memory core", "details": str(e)}), 500
 
-@app.route("/presence-log.json")
-def presence_log():
-    logger.info("Presence-log.json endpoint accessed")
-    try:
-        with open("presence-log.json") as f:
-            return jsonify(json.load(f))
-    except Exception as e:
-        logger.error(f"Error loading presence-log.json: {str(e)}")
-        return jsonify({"error": "Could not load presence log", "details": str(e)}), 500
+@app.route('/memory-core.json')
+def serve_memory_file():
+    return send_from_directory('static', 'memory-core.json')
 
-@app.route('/static/<path:filename>')
-def serve_static(filename):
-    logger.info(f"Static file requested: {filename}")
-    return send_from_directory('static', filename)
+@app.route('/presence-log.json')
+def serve_presence_file():
+    return send_from_directory('static', 'presence-log.json')
 
 # This is for Gunicorn compatibility
 application = app
