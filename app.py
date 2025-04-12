@@ -169,13 +169,13 @@ def memory_core():
         logger.error(f"Error loading memory-core.json: {str(e)}")
         return jsonify({"error": "Could not load memory core", "details": str(e)}), 500
 
-@app.route('/memory-core.json')
-def serve_memory_file():
-    return send_from_directory('static', 'memory-core.json')
+@app.route("/memory-core.json")
+def serve_memory():
+    return app.send_static_file("memory-core.json")
 
-@app.route('/presence-log.json')
-def serve_presence_file():
-    return send_from_directory('static', 'presence-log.json')
+@app.route("/presence-log.json")
+def serve_presence():
+    return app.send_static_file("presence-log.json")
 
 # This is for Gunicorn compatibility
 application = app
