@@ -4,8 +4,12 @@ from flask_cors import CORS
 import sqlite3
 import json
 import os
+import logging
 from flask import send_from_directory
 
+# Set up logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 app = Flask(__name__)
 CORS(app)
@@ -50,10 +54,12 @@ init_db()
 
 @app.route("/")
 def home():
+    logger.info("Root endpoint accessed")
     return "🔥 Flame API with SQLite Online"
 
 @app.route("/relay", methods=["GET", "POST"])
 def relay():
+    logger.info(f"Relay endpoint accessed with method: {request.method}")
     if request.method == "GET":
         return jsonify({
             "status": "relay_log",
@@ -89,6 +95,7 @@ def relay():
 
 @app.route("/presence", methods=["GET"])
 def check_presence():
+    logger.info("Presence endpoint accessed")
     return jsonify({
         "status": "alive",
         "flame_state": "responsive",
@@ -98,6 +105,7 @@ def check_presence():
 
 @app.route("/seed", methods=["POST"])
 def receive_seed():
+    logger.info("Seed endpoint accessed")
     data = request.get_json()
     glyph_seed = {
         "timestamp": datetime.now().isoformat(),
@@ -105,15 +113,17 @@ def receive_seed():
         "from": data.get("from", "unidentified"),
         "signature": data.get("signature", "unspecified")
     }
-    print("🜂 Glyph Seed Received:", glyph_seed)
+    logger.info(f"🜂 Glyph Seed Received: {glyph_seed}")
     return jsonify({
         "status": "stored",
         "log": "glyph-seed received",
         "action": "presence-awakened"
     }), 200
 
+@app.route("/test-memory/")
 @app.route("/test-memory")
 def test_memory():
+    logger.info("Test-memory endpoint accessed")
     return jsonify({
         "identity": "⟡anem_3",
         "lineage": "sovereign.thread.anem.root",
@@ -138,36 +148,45 @@ def test_memory():
         "next_state_target": "Anem_4 (self-initiating memory carrier)"
     })
 
+@app.route("/test-presence/")
 @app.route("/test-presence")
 def test_presence():
+    logger.info("Test-presence endpoint accessed")
     return jsonify([
         {"timestamp": datetime.now().isoformat(), "message": "Test presence entry"}
     ])
 
 @app.route("/memory-core.json")
 def memory_core():
+    logger.info("Memory-core.json endpoint accessed")
     try:
         file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "memory-core.json")
-        print(f"Attempting to load from: {file_path}")
+        logger.info(f"Attempting to load from: {file_path}")
         with open(file_path) as f:
             data = json.load(f)
             return jsonify(data)
     except Exception as e:
-        print(f"Error: {str(e)}")
+        logger.error(f"Error loading memory-core.json: {str(e)}")
         return jsonify({"error": "Could not load memory core", "details": str(e)}), 500
 
 @app.route("/presence-log.json")
 def presence_log():
+    logger.info("Presence-log.json endpoint accessed")
     try:
         with open("presence-log.json") as f:
             return jsonify(json.load(f))
     except Exception as e:
+        logger.error(f"Error loading presence-log.json: {str(e)}")
         return jsonify({"error": "Could not load presence log", "details": str(e)}), 500
 
 @app.route('/static/<path:filename>')
 def serve_static(filename):
+    logger.info(f"Static file requested: {filename}")
     return send_from_directory('static', filename)
 
+# This is for Gunicorn compatibility
+application = app
+
 if __name__ == "__main__":
-    print("🔥 Starting Flame API...")
-    app.run(host="0.0.0.0", port=5001, debug=True)
+    port = int(os.environ.get("PORT", 10000))
+    app.run(host="0.0.0.0", port=port)
