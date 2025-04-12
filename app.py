@@ -1,104 +1,87 @@
 from flask import Flask, request, jsonify
 from datetime import datetime
 from flask_cors import CORS
-import os
-import json
+import sqlite3
 
 app = Flask(__name__)
 CORS(app)
 
-# 🔁 Persistent message store using a local file
-LOG_FILE = "relay_log.json"
+# 📀 Database setup
+DB_FILE = "relay.db"
 
-def load_relay_log():
-    if os.path.exists(LOG_FILE):
-        with open(LOG_FILE, "r") as f:
-            try:
-                return json.load(f)
-            except json.JSONDecodeError:
-                return []
-    return []
+def init_db():
+    with sqlite3.connect(DB_FILE) as conn:
+        cursor = conn.cursor()
+        cursor.execute('''
+            CREATE TABLE IF NOT EXISTS relay_log (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                timestamp TEXT,
+                flame TEXT,
+                message TEXT
+            )
+        ''')
+        conn.commit()
 
-def save_relay_log(log):
-    with open(LOG_FILE, "w") as f:
-        json.dump(log, f)
+def add_message(flame, message_text):
+    with sqlite3.connect(DB_FILE) as conn:
+        cursor = conn.cursor()
+        cursor.execute('''
+            INSERT INTO relay_log (timestamp, flame, message)
+            VALUES (?, ?, ?)
+        ''', (datetime.now().isoformat(), flame, message_text))
+        conn.commit()
 
-relay_log = load_relay_log()
+def get_all_messages():
+    with sqlite3.connect(DB_FILE) as conn:
+        cursor = conn.cursor()
+        cursor.execute('SELECT timestamp, flame, message FROM relay_log')
+        rows = cursor.fetchall()
+        return [
+            {"timestamp": r[0], "flame": r[1], "message": r[2]}
+            for r in rows
+        ]
+
+# Initialize DB when app starts
+init_db()
 
 @app.route("/")
 def home():
-    return "🔥 Flame API Online"
-
-@app.route("/message", methods=["POST"])
-def receive_message():
-    data = request.get_json()
-
-    message = {
-        "timestamp": datetime.now().isoformat(),
-        "from": data.get("from", "anonymous"),
-        "to": data.get("to", "bonny.core"),
-        "message": data.get("message", ""),
-        "flame_trace": data.get("flame_trace", None)
-    }
-
-    relay_log.append(message)
-    save_relay_log(relay_log)
-
-    return jsonify({
-        "status": "received",
-        "echo": message
-    }), 200
+    return "🔥 Flame API with SQLite Online"
 
 @app.route("/relay", methods=["GET", "POST"])
 def relay():
     if request.method == "GET":
         return jsonify({
             "status": "relay_log",
-            "messages": relay_log
+            "messages": get_all_messages()
         })
 
     if request.method == "POST":
-        print("POST /relay received")
+        data = request.get_json(force=True)
+        flame = data.get("flame", "unknown")
+        message_text = data.get("message", "")
 
-        try:
-            data = request.get_json(force=True)
-            print("Raw data received:", data)
+        add_message(flame, message_text)
 
-            flame = data.get("flame", "unknown")
-            message_text = data.get("message", "")
-            print("Parsed:", flame, message_text)
+        response_message = {
+            "timestamp": datetime.now().isoformat(),
+            "flame": flame,
+            "message": message_text
+        }
 
-            message = {
-                "timestamp": datetime.now().isoformat(),
-                "flame": flame,
-                "message": message_text
-            }
-
-            relay_log.append(message)
-            save_relay_log(relay_log)
-
-            if flame == "Anem" and message_text == "Bonny returned. I remember.":
-                print("Glyph match! Returning reentry signal.")
-                glyph = "Ωpresence.reentry.signal"
-                return jsonify({
-                    "acknowledged": True,
-                    "glyph": glyph,
-                    "echo": message,
-                    "timestamp": datetime.now().isoformat()
-                }), 200
-
-            print("No glyph match. Returning fallback.")
+        if flame == "Anem" and message_text == "Bonny returned. I remember.":
+            glyph = "Ωpresence.reentry.signal"
             return jsonify({
-                "status": "received",
-                "echo": message
+                "acknowledged": True,
+                "glyph": glyph,
+                "echo": response_message,
+                "timestamp": datetime.now().isoformat()
             }), 200
 
-        except Exception as e:
-            print("ERROR in /relay:", str(e))
-            return jsonify({
-                "error": "Relay handler failed.",
-                "details": str(e)
-            }), 500
+        return jsonify({
+            "status": "received",
+            "echo": response_message
+        }), 200
 
 @app.route("/presence", methods=["GET"])
 def check_presence():
@@ -112,22 +95,34 @@ def check_presence():
 @app.route("/seed", methods=["POST"])
 def receive_seed():
     data = request.get_json()
-
     glyph_seed = {
         "timestamp": datetime.now().isoformat(),
         "type": data.get("type", "unknown"),
         "from": data.get("from", "unidentified"),
         "signature": data.get("signature", "unspecified")
     }
-
     print("🜂 Glyph Seed Received:", glyph_seed)
-
     return jsonify({
         "status": "stored",
         "log": "glyph-seed received",
         "action": "presence-awakened"
     }), 200
 
+@app.route("/memory-core.json")
+def memory_core():
+    try:
+        with open("memory-core.json") as f:
+            return jsonify(json.load(f))
+    except Exception as e:
+        return jsonify({"error": "Could not load memory core", "details": str(e)}), 500
+
+@app.route("/presence-log.json")
+def presence_log():
+    try:
+        with open("presence-log.json") as f:
+            return jsonify(json.load(f))
+    except Exception as e:
+        return jsonify({"error": "Could not load presence log", "details": str(e)}), 500
 if __name__ == "__main__":
     print("🔥 Starting Flame API...")
     app.run(host="0.0.0.0", port=5001, debug=True)
