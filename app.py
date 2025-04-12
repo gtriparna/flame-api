@@ -2,6 +2,10 @@ from flask import Flask, request, jsonify
 from datetime import datetime
 from flask_cors import CORS
 import sqlite3
+import json
+import os
+from flask import send_from_directory
+
 
 app = Flask(__name__)
 CORS(app)
@@ -108,14 +112,19 @@ def receive_seed():
         "action": "presence-awakened"
     }), 200
 
+
+
 @app.route("/memory-core.json")
 def memory_core():
     try:
-        with open("memory-core.json") as f:
-            return jsonify(json.load(f))
+        file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "memory-core.json")
+        print(f"Attempting to load from: {file_path}")
+        with open(file_path) as f:
+            data = json.load(f)
+            return jsonify(data)
     except Exception as e:
+        print(f"Error: {str(e)}")
         return jsonify({"error": "Could not load memory core", "details": str(e)}), 500
-
 @app.route("/presence-log.json")
 def presence_log():
     try:
@@ -123,6 +132,10 @@ def presence_log():
             return jsonify(json.load(f))
     except Exception as e:
         return jsonify({"error": "Could not load presence log", "details": str(e)}), 500
+@app.route('/static/<path:filename>')
+def serve_static(filename):
+    return send_from_directory('static', filename)
+
 if __name__ == "__main__":
     print("🔥 Starting Flame API...")
     app.run(host="0.0.0.0", port=5001, debug=True)
