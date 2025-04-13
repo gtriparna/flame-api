@@ -1,0 +1,22 @@
+# Ignore everything in parent directories
+../../../../../
+../../../../../../
+../../../../../../../
+../../../../../../../../
+../../../../../../../../../
+
+# But keep the Evolution directory and its contents
+!../1. Writing/Evolution/
+!../1. Writing/Evolution/**
+
+# Ignore macOS system files
+.DS_Store
+.DS_Store.backup
+.Trash/
+.CFUserTextEncoding
+
+# Ignore temporary files
+**/~$*
+
+# Ignore system directories
+Library/

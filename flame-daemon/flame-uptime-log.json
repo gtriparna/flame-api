@@ -1,0 +1,2057 @@
+[
+  {
+    "timestamp": "2025-04-04T00:28:34.792977",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:28:44.798532",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:28:54.805330",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:29:04.811972",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:29:14.819662",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:29:24.827123",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:29:34.831606",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:29:44.838044",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:29:54.844975",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:30:04.854603",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:30:14.860613",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:30:24.866250",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:30:34.874204",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:30:44.886337",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:30:54.899032",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:31:04.902027",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:31:14.907074",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:31:24.912087",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:31:34.920229",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:31:44.926596",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:31:54.933131",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:32:04.938756",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:32:14.944661",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:32:24.953611",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:32:34.961117",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:32:44.967868",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:32:54.972733",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:33:04.979024",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:33:14.986332",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:33:24.995550",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:33:35.000061",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:33:45.007478",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:33:55.012602",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:34:05.020339",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:34:15.027861",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:34:25.035071",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:34:35.044058",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:34:45.053639",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:34:55.060975",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:35:05.064079",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:35:15.067324",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:35:25.077035",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:35:35.086402",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:35:45.095094",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:35:55.103746",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:36:05.112018",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:36:15.119781",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:36:25.124221",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:36:35.131876",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:36:45.137119",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:36:55.143148",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:37:05.151514",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:37:15.159662",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:37:25.164506",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:37:35.172597",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:37:45.181953",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:37:55.189361",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:38:05.195376",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:38:15.201879",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:38:25.208092",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:38:35.216126",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:38:45.224269",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:38:55.233329",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:39:05.241119",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:39:15.245690",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:39:25.253561",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:39:35.259569",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:39:45.267066",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:39:55.274107",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:40:05.282221",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:40:15.288693",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:40:25.293393",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:40:35.302026",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:40:45.309506",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:40:55.317384",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:41:05.327109",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:41:15.335691",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:41:25.344712",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:41:35.353401",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:41:45.361499",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:41:55.368552",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:42:05.377622",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:42:15.386902",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:42:25.399098",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:42:35.402975",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:42:45.411247",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:42:55.413769",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:43:05.419728",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:43:15.427832",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:43:25.436447",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:43:35.439574",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:43:45.448066",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:43:55.454408",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:44:05.461250",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:44:15.468584",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:44:25.476816",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:44:35.483632",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:44:45.491123",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:44:55.498941",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:45:05.504672",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:45:15.510702",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:45:25.519736",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:45:35.528351",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:45:45.537461",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:45:55.547182",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:46:05.551969",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:46:15.558000",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:46:25.562838",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:46:35.571285",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:46:45.579456",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:46:55.585611",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:47:05.593960",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:47:15.598552",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:47:25.604532",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:47:35.611432",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:47:45.623802",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:47:55.631950",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:48:05.639688",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:48:15.646959",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:48:25.642938",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:48:35.641976",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:48:45.649154",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:48:55.653854",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:49:05.659519",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:49:15.665876",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:49:25.673762",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:49:35.680881",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:49:45.684620",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:49:55.691533",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:50:05.699766",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:50:15.708153",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:50:25.714919",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:50:35.722983",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:50:45.725680",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:50:55.733978",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:51:05.740987",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:51:15.743963",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:51:25.751775",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:51:35.758350",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:51:45.766336",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:51:55.775096",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:52:05.780950",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:52:15.790833",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:52:25.799287",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:52:35.809153",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:52:45.817206",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:52:55.826780",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:53:05.834972",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:53:15.841619",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:53:25.850893",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:53:35.857449",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:53:45.864592",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:53:55.873340",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:54:05.879796",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:54:15.889892",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:54:25.898730",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:54:35.907560",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:54:45.916390",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:54:55.927970",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:55:05.936295",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:55:15.944936",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:55:25.953929",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:55:35.962870",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:55:45.976609",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:55:55.981847",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:56:05.991910",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:56:15.999542",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:56:26.007895",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:56:36.015900",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:56:46.024726",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:56:56.033018",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:57:06.040216",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:57:16.047516",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:57:26.055564",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:57:36.061347",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:57:46.071930",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:57:56.077220",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:58:06.084057",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:58:16.092781",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:58:26.101833",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:58:36.106340",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:58:46.114429",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:58:56.119418",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:59:06.126828",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:59:16.132823",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:59:26.139928",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:59:36.148942",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:59:46.157632",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T00:59:56.171490",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:00:06.185786",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:00:16.196842",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:00:26.216393",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:00:36.220733",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:00:46.230012",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:00:56.237064",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:01:06.245592",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:01:16.250769",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:01:26.258867",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:01:36.273215",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:01:46.300203",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:01:56.318415",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:02:06.327128",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:02:16.338062",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:02:26.347375",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:02:36.353943",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:02:46.362643",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:02:56.369666",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:03:06.377428",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:03:16.389297",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:03:26.397463",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:03:36.555692",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:03:46.589832",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:03:56.607296",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:04:06.618045",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:04:16.628385",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:04:26.637195",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:04:36.641326",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:04:46.652838",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:04:56.659517",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:05:06.668704",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:05:16.674471",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:05:26.681105",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:05:36.689753",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:05:46.692277",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:05:56.699822",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:06:06.706075",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:06:16.711559",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:06:26.718615",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:06:36.727753",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:06:46.736593",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:06:56.746003",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:07:06.752768",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:07:16.762776",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:07:26.768554",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:07:36.779205",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:07:46.784851",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:07:56.793784",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:08:06.798415",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:08:16.805758",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:08:26.812346",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:08:36.821037",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:08:46.827446",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:08:56.838116",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:09:06.844122",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:09:16.855807",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:09:26.862234",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:09:36.873070",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:09:46.881855",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:09:56.887873",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:10:06.903134",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:10:16.907504",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:10:26.916420",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:10:36.926000",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:10:46.931875",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:10:56.942413",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:11:06.959901",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:11:16.968733",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:11:26.977812",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:11:36.986983",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:11:46.998940",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:11:57.008938",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:12:07.018545",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:12:17.027633",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:12:27.037036",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:12:37.047632",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:12:47.051894",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:12:57.060744",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:13:07.066228",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:13:17.081239",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:13:27.085815",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:13:37.095526",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:13:47.107990",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:13:57.120473",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:14:07.127240",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:14:17.133599",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:14:27.137923",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:14:37.145256",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:14:47.155263",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:14:57.164444",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:15:07.176635",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:15:17.187492",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:15:27.192645",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:15:37.203257",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:15:47.214198",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:15:57.224859",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:16:07.233215",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:16:17.245126",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:16:27.256644",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:16:37.264029",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:16:47.275579",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:16:57.285607",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:17:07.295774",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:17:17.305339",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:17:27.311888",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:17:37.319471",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:17:47.333542",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:17:57.345404",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:18:07.351531",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:18:17.361705",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:18:27.372348",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:18:37.383506",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:18:47.391598",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:18:57.398726",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:19:07.410418",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:19:17.420687",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:19:27.429850",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:19:37.439198",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:19:47.456972",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:19:57.465562",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:20:07.475375",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:20:17.484888",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:20:27.492109",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:20:37.503334",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:20:47.514457",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:20:57.523111",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:21:07.533549",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:21:17.543567",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:21:27.552879",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:21:37.560468",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:21:47.571375",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:21:57.575309",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:22:07.583716",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:22:17.592176",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:22:27.597448",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:22:37.607420",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:22:47.617768",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:22:57.625493",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:23:07.635588",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:23:17.644686",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:23:27.655111",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:23:37.665616",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:23:47.670821",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:23:57.678665",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:24:07.684745",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:24:17.694827",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:24:27.704174",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:24:37.715205",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:24:47.727079",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:24:57.738552",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:25:07.746323",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:25:17.756342",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:25:27.767383",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:25:37.775558",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:25:47.784996",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:25:57.791376",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:26:07.802862",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:26:17.815975",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:26:27.825823",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:26:37.837299",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:26:47.848954",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:26:57.855046",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:27:07.862826",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:27:17.880671",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:27:27.892173",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:27:37.899388",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:27:47.903739",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:27:57.909199",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:28:07.915365",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:28:17.924538",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:28:27.930158",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:28:37.940300",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:28:47.950414",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:28:57.955734",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:29:07.966111",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:29:17.975728",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:29:27.989732",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:29:37.999536",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:29:48.007826",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:29:58.013520",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:30:08.022593",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:30:18.030469",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:30:28.040156",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:30:38.051283",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:30:48.060267",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:30:58.074299",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:31:08.081516",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:31:18.092250",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:31:28.101866",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:31:38.107827",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:31:48.116192",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:31:58.123103",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:32:08.131476",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:32:18.142901",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:32:28.157209",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:32:38.164897",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:32:48.174698",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:32:58.188219",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:33:08.216803",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:33:18.225775",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:33:28.234529",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:33:38.241779",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:33:48.252109",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:33:58.263240",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:34:08.274733",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:34:18.286231",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:34:28.296746",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:34:38.306859",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:34:48.317282",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:34:58.330210",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:35:08.341629",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:35:18.353346",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:35:28.363999",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:35:38.374595",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:35:48.389390",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:35:58.401325",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:36:08.416961",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:36:18.426022",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:36:28.432434",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:36:38.449858",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:36:48.461337",
+    "status": "flame alive",
+    "signal": "presence held"
+  },
+  {
+    "timestamp": "2025-04-04T01:36:58.472392",
+    "status": "flame alive",
+    "signal": "presence held"
+  }
+]
